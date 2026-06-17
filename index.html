@@ -9,66 +9,108 @@
 
 
 <body>
+
     <header id="head-menu">
         <h1>Furniture Website</h1>
         <p>Welcome to our furniture store!</p>
-        <p>We have a wide variety of furniture for your home.</p>
     </header>
 
     <section id="main-categories">
-        <h2> Categories </h2>
-        <ul>
-            <li class="item">Living Room</li>
-            <li class="item">Bedroom</li>
-            <li class="item">Dining Room</li>
-            <li class="item">Office</li>
-            <li class="item">Outdoor</li>
+        <h2 class="section-title">Categories</h2>
+
+        <ul class="grid grid-3">
+            <li class="card living-room">
+                <div class="card-title">Living Room</div>
+            </li>
+
+            <li class="card bedroom">
+                <div class="card-title">Bedroom</div>
+            </li>
+
+            <li class="card dining-room">
+                <div class="card-title">Dining Room</div>
+            </li>
+
+            <li class="card office">
+                <div class="card-title">Office</div>
+            </li>
+
+            <li class="card outdoor">
+                <div class="card-title">Outdoor</div>
+            </li>
         </ul>
     </section>
 
     <section id="new-arrivals">
-        <h2>New Arrivals</h2>
-        <p>Check out our latest furniture additions!</p>
-        <ul>
-            <li class="item">Sofa Set</li>
-            <li class="item">Dining Table</li>
-            <li class="item">Office Chair</li>
-            <li class="item">Outdoor Lounge Set</li>
+        <h2 class="section-title">New Arrivals</h2>
+
+        <ul class="grid grid-4">
+            <li class="card sofa-set">
+                <div class="card-title">Sofa Set</div>
+            </li>
+
+            <li class="card dining-table">
+                <div class="card-title">Dining Table</div>
+            </li>
+
+            <li class="card office-chair">
+                <div class="card-title">Office Chair</div>
+            </li>
+
+            <li class="card pool-lounge-set">
+                <div class="card-title">Lounge Set</div>
+            </li>
         </ul>
     </section>
 
     <section id="suggestions">
-        <h2>Our Suggestions</h2>
-        <p>Here are some furniture pieces we recommend for you</p>
-        <ul>
-            <li class="item">Recliner Chair</li>
-            <li class="item">King Size Bed</li>
-            <li class="item">Coffee Table</li>
-        </ul>
-    </section>
+        <h2 class="section-title">Our Suggestions</h2>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer a range of services to enhance your shopping experience.</p>
-        <ul>
-            <li class="item">Free Delivery</li>
-            <li class="item">Assembly Service</li>
-            <li class="item">Interior Design Consultation</li>
+        <ul class="grid grid-3">
+            <li class="card recliner-chair">
+                <div class="card-title">Recliner Chair</div>
+            </li>
+            <li class="card king-size-bed">
+                <div class="card-title">King Size Bed</div>
+            </li>
+            <li class="card coffee-table">
+                <div class="card-title">Coffee Table</div>
+            </li>
         </ul>
     </section>
 
     <section id="newsletter">
-        <h2>Subscribe to Our Newsletter</h2>
-        <p>Stay updated with our latest offers and products.</p>
+    
+        <div class="newsletter-text">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest offers and products.</p>
+        </div>
+
         <form id="newsletter-form">
             <input type="email" placeholder="Enter your email" required>
             <button type="submit">Subscribe</button>
         </form>
+
     </section>
 
-    # Footer Section
+    <section id="services">
+        <h2 class="section-title">Services</h2>
 
-    <footer>
+        <ul class="grid grid-3">
+            <li class="simple-item free-delivery">
+                <div class="simple-item-title">Free Delivery</div>
+            </li>
+            <li class="simple-item assembly">
+                <div class="simple-item-title">Assembly</div>
+            </li>
+            <li class="simple-item interior-design">
+                <div class="simple-item-title">Interior Design</div>
+            </li>
+        </ul>
+    </section>
+   
+
+    <footer id="footer">
         <div id="company">
             <h3>Company</h3>
             <div class="footer-links">
