@@ -93,6 +93,51 @@ body {
 .free-delivery { background-image: url('images/landingPage/Services/freedelivery.jpg'); }
 .assembly { background-image: url('images/landingPage/Services/assembly.jpg'); }    
 .interior-design { background-image: url('images/landingPage/Services/interiordesign.jpg'); }
+
+/* ================= NEW ARRIVALS EXTRA ================ */
+
+.more{
+    position: relative;
+    top:265px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.see-more{
+    position: relative;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-size:0.85rem;
+    width:100%;
+    height: 40px;
+    
+}
+
+.sticker-new {
+    position: absolute;
+    top: 10px;         
+    right: 10px;       
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: red;
+    border-radius: 12px;
+    padding: 6px 12px;      
+    min-width: 60px;         
+    z-index: 10;          
+}
+
+.text-new {
+    margin: 0;
+    padding: 0;
+    color: white;           
+    font-size: 0.85rem;    
+    text-align: center;
+}
+
 /* ================= SIMPLE LIST ITEMS ================= */
 
 .simple-item {
@@ -120,6 +165,7 @@ body {
     font-weight: bold;
 }
 
+ /* ================ NEWSLETTER ========================== */
 
 #newsletter {
     display: flex;
@@ -166,6 +212,16 @@ body {
     opacity: 0.85;
 }
 
+
+/* =============== SERVICES =============== */
+
+section#services{
+    margin-bottom:80px;
+}
+
+
+
+/* =============== FOOTER ================ */
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -203,3 +259,4 @@ footer h3 {
     letter-spacing: 1px;
     color: #C8A45D;
 }
+
